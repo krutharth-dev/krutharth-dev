@@ -1,1 +1,220 @@
 
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="260" viewBox="0 0 960 260" role="img" aria-labelledby="title desc">
+  <title id="title">Premium animated technology stack banner</title>
+  <desc id="desc">A premium GitHub-safe animated technology stack graphic with glowing nodes, orbiting elements and floating tool cards.</desc>
+
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="55%" stop-color="#0b1220"/>
+      <stop offset="100%" stop-color="#111827"/>
+    </linearGradient>
+
+    <linearGradient id="card" x1="0" x2="1">
+      <stop offset="0%" stop-color="#161b22"/>
+      <stop offset="100%" stop-color="#1f2937"/>
+    </linearGradient>
+
+    <linearGradient id="accent1" x1="0" x2="1">
+      <stop offset="0%" stop-color="#58a6ff"/>
+      <stop offset="100%" stop-color="#1f6feb"/>
+    </linearGradient>
+
+    <linearGradient id="accent2" x1="0" x2="1">
+      <stop offset="0%" stop-color="#7ee787"/>
+      <stop offset="100%" stop-color="#2ea043"/>
+    </linearGradient>
+
+    <linearGradient id="accent3" x1="0" x2="1">
+      <stop offset="0%" stop-color="#d2a8ff"/>
+      <stop offset="100%" stop-color="#8957e5"/>
+    </linearGradient>
+
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="smallGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#223047" opacity="0.45"/>
+    </pattern>
+
+    <style>
+      .ui { font-family: Inter, Segoe UI, Arial, sans-serif; }
+      .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; }
+
+      .title {
+        fill: #f0f6fc;
+        font-size: 28px;
+        font-weight: 700;
+      }
+
+      .subtitle {
+        fill: #8b949e;
+        font-size: 13px;
+      }
+
+      .card {
+        fill: url(#card);
+        stroke: #30363d;
+        stroke-width: 1.2;
+      }
+
+      .cardLabel {
+        fill: #e6edf3;
+        font-size: 15px;
+        font-weight: 600;
+      }
+
+      .tiny {
+        fill: #8b949e;
+        font-size: 11px;
+      }
+
+      .netLine1 {
+        stroke: #58a6ff;
+        stroke-width: 1.5;
+        stroke-dasharray: 6 8;
+        opacity: 0.55;
+      }
+
+      .netLine2 {
+        stroke: #7ee787;
+        stroke-width: 1.3;
+        stroke-dasharray: 5 7;
+        opacity: 0.45;
+      }
+
+      .netLine3 {
+        stroke: #d2a8ff;
+        stroke-width: 1.3;
+        stroke-dasharray: 4 8;
+        opacity: 0.4;
+      }
+
+      @media (prefers-reduced-motion: reduce) {
+        * {
+          animation: none !important;
+        }
+      }
+    </style>
+  </defs>
+
+  <!-- outer panel -->
+  <rect x="1" y="1" width="958" height="258" rx="22" fill="url(#bg)" stroke="#30363d"/>
+  <rect x="18" y="18" width="924" height="224" rx="18" fill="url(#dots)" opacity="0.5"/>
+
+  <!-- top label -->
+  <text x="480" y="42" text-anchor="middle" class="ui title">Premium Tech Stack</text>
+  <text x="480" y="64" text-anchor="middle" class="ui subtitle">
+    AI · Web · Systems · Networking · Developer Tooling
+  </text>
+
+  <!-- glowing background dots -->
+  <g opacity="0.85">
+    <circle cx="90" cy="55" r="2.5" fill="#58a6ff" filter="url(#smallGlow)">
+      <animate attributeName="opacity" values="0.2;1;0.2" dur="2.7s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="165" cy="200" r="2.5" fill="#7ee787" filter="url(#smallGlow)">
+      <animate attributeName="opacity" values="0.25;1;0.25" dur="2.1s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="850" cy="62" r="2.5" fill="#d2a8ff" filter="url(#smallGlow)">
+      <animate attributeName="opacity" values="0.2;1;0.2" dur="2.9s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="810" cy="210" r="2.5" fill="#f2cc60" filter="url(#smallGlow)">
+      <animate attributeName="opacity" values="0.2;1;0.2" dur="2.2s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- animated network lines -->
+  <line x1="195" y1="132" x2="430" y2="132" class="netLine1">
+    <animate attributeName="stroke-dashoffset" from="0" to="-28" dur="2.2s" repeatCount="indefinite"/>
+  </line>
+  <line x1="530" y1="132" x2="765" y2="132" class="netLine1">
+    <animate attributeName="stroke-dashoffset" from="0" to="-28" dur="2.2s" repeatCount="indefinite"/>
+  </line>
+  <line x1="250" y1="185" x2="430" y2="150" class="netLine2">
+    <animate attributeName="stroke-dashoffset" from="0" to="-22" dur="2.8s" repeatCount="indefinite"/>
+  </line>
+  <line x1="710" y1="185" x2="530" y2="150" class="netLine3">
+    <animate attributeName="stroke-dashoffset" from="0" to="-22" dur="3s" repeatCount="indefinite"/>
+  </line>
+
+  <!-- central core -->
+  <g transform="translate(480 132)">
+    <circle r="30" fill="#111827" stroke="url(#accent1)" stroke-width="2.5"/>
+    <circle r="12" fill="#58a6ff" filter="url(#softGlow)">
+      <animate attributeName="r" values="11;14;11" dur="2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.85;1;0.85" dur="2s" repeatCount="indefinite"/>
+    </circle>
+
+    <g>
+      <circle cx="0" cy="-44" r="6" fill="#7ee787"/>
+      <circle cx="38" cy="22" r="6" fill="#d2a8ff"/>
+      <circle cx="-38" cy="22" r="6" fill="#f2cc60"/>
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="12s" repeatCount="indefinite"/>
+    </g>
+
+    <g>
+      <circle cx="0" cy="-56" r="2.2" fill="#58a6ff"/>
+      <circle cx="48" cy="28" r="2.2" fill="#7ee787"/>
+      <circle cx="-48" cy="28" r="2.2" fill="#d2a8ff"/>
+      <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="8s" repeatCount="indefinite"/>
+    </g>
+  </g>
+
+  <!-- floating cards -->
+  <g transform="translate(60 102)">
+    <rect class="card" width="135" height="58" rx="14"/>
+    <text x="67.5" y="28" text-anchor="middle" class="ui cardLabel">Python</text>
+    <text x="67.5" y="45" text-anchor="middle" class="ui tiny">AI · automation</text>
+    <animateTransform attributeName="transform" type="translate" values="60 102;60 94;60 102" dur="3s" repeatCount="indefinite"/>
+  </g>
+
+  <g transform="translate(195 172)">
+    <rect class="card" width="120" height="44" rx="12"/>
+    <text x="60" y="27" text-anchor="middle" class="ui cardLabel" font-size="14">Systems</text>
+    <animateTransform attributeName="transform" type="translate" values="195 172;195 166;195 172" dur="2.6s" repeatCount="indefinite"/>
+  </g>
+
+  <g transform="translate(325 94)">
+    <rect class="card" width="105" height="44" rx="12"/>
+    <text x="52.5" y="27" text-anchor="middle" class="ui cardLabel" font-size="14">React</text>
+    <animateTransform attributeName="transform" type="translate" values="325 94;325 88;325 94" dur="2.4s" repeatCount="indefinite"/>
+  </g>
+
+  <g transform="translate(530 94)">
+    <rect class="card" width="105" height="44" rx="12"/>
+    <text x="52.5" y="27" text-anchor="middle" class="ui cardLabel" font-size="14">Node.js</text>
+    <animateTransform attributeName="transform" type="translate" values="530 94;530 88;530 94" dur="2.7s" repeatCount="indefinite"/>
+  </g>
+
+  <g transform="translate(645 172)">
+    <rect class="card" width="130" height="44" rx="12"/>
+    <text x="65" y="27" text-anchor="middle" class="ui cardLabel" font-size="14">Networking</text>
+    <animateTransform attributeName="transform" type="translate" values="645 172;645 166;645 172" dur="2.9s" repeatCount="indefinite"/>
+  </g>
+
+  <g transform="translate(765 102)">
+    <rect class="card" width="135" height="58" rx="14"/>
+    <text x="67.5" y="28" text-anchor="middle" class="ui cardLabel">Cloudflare</text>
+    <text x="67.5" y="45" text-anchor="middle" class="ui tiny">deploy · edge</text>
+    <animateTransform attributeName="transform" type="translate" values="765 102;765 94;765 102" dur="3.2s" repeatCount="indefinite"/>
+  </g>
+
+  <!-- lower note -->
+  <text x="480" y="235" text-anchor="middle" class="mono" fill="#6e7681" font-size="11">
+    build · connect · deploy · improve
+  </text>
+</svg>
