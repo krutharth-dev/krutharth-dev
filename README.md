@@ -33,65 +33,58 @@
 
 I build practical, testable projects, from AI-assisted experiences and visual experiments to networking protocols and command-line tools. I enjoy turning complex technical ideas into something people can run, observe and understand.
 
-| 🔭 Project focus | 🧭 Areas I explore |
-| :--- | :--- |
-| AI training tools, reliable UDP transfer and privacy-first computer vision | Full-stack apps, network protocols, operating systems and Edge AI |
-| An academic Edge-AI digital-twin project is under development | Automation, testing, accessible interfaces and useful developer tooling |
+**Building now:** AI training tools, reliable UDP transfer and privacy-first computer vision. The academic Edge-AI digital-twin project is under development.
+
+**Exploring:** Full-stack applications, network protocols, operating systems, Edge AI, automation, testing and accessible interfaces.
 
 ---
 
 ## 🚀 Featured Work
 
 <table>
-  <tr>
-    <td width="50%" valign="top">
+  <tr><td valign="top">
       <h3><a href="https://github.com/krutharth-dev/aura-fit-ai">🏋️ AURA FIT</a></h3>
       <p>An AI training and wellness coach with guided programs, account features and a workout journal.</p>
-      <sub>AI · Fitness · Web application</sub>
-    </td>
-    <td width="50%" valign="top">
+      <sub>AI · Fitness · Web application</sub> · <a href="https://aura-fit-ai.krutharth-dev.workers.dev/">Hosted app ↗</a> · <a href="https://github.com/krutharth-dev/aura-fit-ai/blob/main/DEMO_GUIDE.md">Demo guide</a>
+    </td></tr>
+  <tr><td valign="top">
       <h3><a href="https://github.com/krutharth-dev/RDTX-Reliable-UDP-Transfer">🌐 RDTX VisualLab</a></h3>
       <p>Reliable file transfer over real UDP using Selective Repeat ARQ, fault simulation and live protocol telemetry.</p>
-      <sub>Computer networks · Python · Protocols</sub>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
+      <sub>Computer networks · Python · Protocols</sub> · <a href="https://github.com/krutharth-dev/RDTX-Reliable-UDP-Transfer/blob/main/docs/DEMO_GUIDE.md">Guided local demo ↗</a>
+    </td></tr>
+  <tr><td valign="top">
       <h3><a href="https://github.com/mjkr-1/Ergo-Vision">🧍 ErgoVision</a></h3>
       <p>Privacy-first local posture monitoring with computer vision, feedback and a React dashboard.</p>
-      <sub>OpenCV · MediaPipe · React · Shared project</sub>
-    </td>
-    <td width="50%" valign="top">
+      <sub>OpenCV · MediaPipe · React · Shared project</sub> · <a href="https://github.com/mjkr-1/Ergo-Vision/releases/tag/v1.1.0">Desktop release ↗</a> · <a href="https://github.com/mjkr-1/Ergo-Vision/blob/main/docs/INSTALLATION.md">Install guide</a>
+    </td></tr>
+  <tr><td valign="top">
       <h3><a href="https://github.com/krutharth-dev/edge-ai-digital-twin">⚙️ Edge-AI Digital Twin</a></h3>
       <p>Team academic predictive-maintenance prototype combining IoT sensing, Edge AI and a Digital Twin.</p>
       <sub>Under development · IoT · Predictive maintenance</sub>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
+    </td></tr>
+  <tr><td valign="top">
       <h3><a href="https://github.com/krutharth-dev/os-algorithms-simulator-c">🖥️ OS Algorithms Simulator</a></h3>
       <p>Interactive C simulations for memory allocation, page replacement, disk scheduling and other OS concepts.</p>
       <sub>C · Operating systems · CLI</sub>
-    </td>
-    <td width="50%" valign="top">
+    </td></tr>
+  <tr><td valign="top">
       <h3><a href="https://github.com/krutharth-dev/unix-mini-projects">🐧 Unix Mini Projects</a></h3>
       <p>Practical shell scripting projects for monitoring, backup and restore, file handling and terminal utilities.</p>
       <sub>Bash · Linux · Automation</sub>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
+    </td></tr>
+  <tr><td valign="top">
       <h3><a href="https://github.com/krutharth-dev/inventory-management-system-java">📦 Inventory Management</a></h3>
       <p>Java CLI inventory manager with persistent storage, validation, analytics and CSV export.</p>
       <sub>Java · OOP · File handling</sub>
-    </td>
-    <td width="50%" valign="top">
+    </td></tr>
+  <tr><td valign="top">
       <h3><a href="https://github.com/krutharth-dev?tab=repositories">↗ Explore all repositories</a></h3>
       <p>Browse source code, documentation, experiments and updates across the rest of my projects.</p>
       <sub>Open the complete portfolio</sub>
-    </td>
-  </tr>
+    </td></tr>
 </table>
+
+<sub>Links lead to actual projects and documentation; interface screenshots will be added after capturing the running applications.</sub>
 
 ---
 
@@ -106,29 +99,32 @@ I build practical, testable projects, from AI-assisted experiences and visual ex
 
 <br/>
 
-<table align="center">
-  <tr>
-    <td align="center" width="100"><img src="https://skillicons.dev/icons?i=python" width="48" height="48" alt="Python" /><br/>Python</td>
-    <td align="center" width="100"><img src="https://skillicons.dev/icons?i=js" width="48" height="48" alt="JavaScript" /><br/>JavaScript</td>
-    <td align="center" width="100"><img src="https://skillicons.dev/icons?i=ts" width="48" height="48" alt="TypeScript" /><br/>TypeScript</td>
-    <td align="center" width="100"><img src="https://skillicons.dev/icons?i=react" width="48" height="48" alt="React" /><br/>React</td>
-    <td align="center" width="100"><img src="https://skillicons.dev/icons?i=nodejs" width="48" height="48" alt="Node.js" /><br/>Node.js</td>
-  </tr>
-  <tr>
-    <td align="center"><img src="https://skillicons.dev/icons?i=c" width="48" height="48" alt="C" /><br/>C</td>
-    <td align="center"><img src="https://skillicons.dev/icons?i=java" width="48" height="48" alt="Java" /><br/>Java</td>
-    <td align="center"><img src="https://skillicons.dev/icons?i=bash" width="48" height="48" alt="Bash" /><br/>Bash</td>
-    <td align="center"><img src="https://skillicons.dev/icons?i=linux" width="48" height="48" alt="Linux" /><br/>Linux</td>
-    <td align="center"><img src="https://skillicons.dev/icons?i=git" width="48" height="48" alt="Git" /><br/>Git</td>
-  </tr>
-  <tr>
-    <td align="center"><img src="https://skillicons.dev/icons?i=github" width="48" height="48" alt="GitHub" /><br/>GitHub</td>
-    <td align="center"><img src="https://skillicons.dev/icons?i=vscode" width="48" height="48" alt="VS Code" /><br/>VS Code</td>
-    <td align="center"><img src="https://skillicons.dev/icons?i=opencv" width="48" height="48" alt="OpenCV" /><br/>OpenCV</td>
-    <td align="center"><img src="https://skillicons.dev/icons?i=cloudflare" width="48" height="48" alt="Cloudflare" /><br/>Cloudflare</td>
-    <td align="center"><img src="https://skillicons.dev/icons?i=flask" width="48" height="48" alt="Flask" /><br/>Flask</td>
-  </tr>
-</table>
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=python" alt="Python" width="44" height="44" />
+  <img src="https://skillicons.dev/icons?i=js" alt="JavaScript" width="44" height="44" />
+  <img src="https://skillicons.dev/icons?i=ts" alt="TypeScript" width="44" height="44" />
+  <img src="https://skillicons.dev/icons?i=react" alt="React" width="44" height="44" />
+  <img src="https://skillicons.dev/icons?i=nodejs" alt="Node.js" width="44" height="44" />
+  <br/><sub>Python · JavaScript · TypeScript · React · Node.js</sub>
+</p>
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=c" alt="C" width="44" height="44" />
+  <img src="https://skillicons.dev/icons?i=java" alt="Java" width="44" height="44" />
+  <img src="https://skillicons.dev/icons?i=bash" alt="Bash" width="44" height="44" />
+  <img src="https://skillicons.dev/icons?i=linux" alt="Linux" width="44" height="44" />
+  <img src="https://skillicons.dev/icons?i=git" alt="Git" width="44" height="44" />
+  <br/><sub>C · Java · Bash · Linux · Git</sub>
+</p>
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=github" alt="GitHub" width="44" height="44" />
+  <img src="https://skillicons.dev/icons?i=vscode" alt="VS Code" width="44" height="44" />
+  <img src="https://skillicons.dev/icons?i=opencv" alt="OpenCV" width="44" height="44" />
+  <img src="https://skillicons.dev/icons?i=cloudflare" alt="Cloudflare" width="44" height="44" />
+  <img src="https://skillicons.dev/icons?i=flask" alt="Flask" width="44" height="44" />
+  <br/><sub>GitHub · VS Code · OpenCV · Cloudflare · Flask</sub>
+</p>
 
 ---
 
@@ -136,8 +132,10 @@ I build practical, testable projects, from AI-assisted experiences and visual ex
 
 <div align="center">
 
-<img alt="GitHub statistics for krutharth-dev" height="170" src="https://github-readme-stats.vercel.app/api?username=krutharth-dev&amp;show_icons=true&amp;theme=github_dark&amp;hide_border=true" />
-<img alt="Languages used across krutharth-dev repositories" height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=krutharth-dev&amp;layout=compact&amp;theme=github_dark&amp;hide_border=true" />
+<img alt="GitHub statistics for krutharth-dev" width="420" src="https://github-readme-stats.vercel.app/api?username=krutharth-dev&amp;show_icons=true&amp;theme=github_dark&amp;hide_border=true" />
+<img alt="Languages used across krutharth-dev repositories" width="420" src="https://github-readme-stats.vercel.app/api/top-langs/?username=krutharth-dev&amp;layout=compact&amp;theme=github_dark&amp;hide_border=true" />
+
+<br/><sub>If either external stats card is unavailable, <a href="https://github.com/krutharth-dev?tab=overview">view GitHub's native activity</a> or <a href="https://github.com/krutharth-dev?tab=repositories">browse the repositories</a>.</sub>
 
 <br/><br/>
 
