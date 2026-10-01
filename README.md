@@ -16,19 +16,14 @@
 
 <br/><br/>
 
-<a href="https://github.com/krutharth-dev?tab=followers"><img alt="GitHub followers" src="https://img.shields.io/github/followers/krutharth-dev?style=for-the-badge&amp;logo=github&amp;label=Followers" /></a>
-<img alt="Profile views" src="https://komarev.com/ghpvc/?username=krutharth-dev&amp;label=Profile+Views&amp;color=2ea043&amp;style=for-the-badge" />
-<a href="https://github.com/krutharth-dev?tab=repositories"><img alt="Browse all repositories" src="https://img.shields.io/badge/Browse-All%20Repositories-30363d?style=for-the-badge&amp;logo=github&amp;logoColor=white" /></a>
+<p>
+  <a href="https://github.com/krutharth-dev?tab=followers"><img alt="GitHub followers" src="https://img.shields.io/github/followers/krutharth-dev?style=for-the-badge&amp;logo=github&amp;label=Followers" /></a>
+  <a href="https://github.com/krutharth-dev?tab=repositories"><img alt="Browse all repositories" src="https://img.shields.io/badge/Browse-All%20Repositories-30363d?style=for-the-badge&amp;logo=github&amp;logoColor=white" /></a>
+</p>
+
+<p><sub>🟢 CURRENTLY BUILDING · Explore the projects using the links above.</sub></p>
 
 </div>
-
-<details>
-  <summary><strong>🟢 Currently building — click to explore</strong></summary>
-  <br/>
-  <p>🏋️ <a href="https://github.com/krutharth-dev/aura-fit-ai"><strong>AURA FIT</strong></a> — an AI fitness coach with training tools and a workout journal.</p>
-  <p>🌐 <a href="https://github.com/krutharth-dev/RDTX-Reliable-UDP-Transfer"><strong>RDTX VisualLab</strong></a> — exploring reliable UDP transfer through interactive experiments.</p>
-  <p>🧍 <a href="https://github.com/mjkr-1/Ergo-Vision"><strong>ErgoVision</strong></a> — local, privacy-first posture monitoring with computer vision.</p>
-</details>
 
 ---
 
