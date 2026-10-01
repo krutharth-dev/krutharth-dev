@@ -93,6 +93,13 @@ Beyond features, I aim to make software testable and decisions inspectable. Exam
 
 ---
 
+## Recognition
+
+🥉 **Signal Quest — 3rd Place**  
+Secured third place in the Signal Quest competition. [View the announcement ↗](https://www.instagram.com/p/Dd9Exx5EtT-/)
+
+---
+
 ## GitHub activity
 
 <div align="center">
