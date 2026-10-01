@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="190" viewBox="0 0 940 190" role="img" aria-labelledby="title desc">
+  <title id="title">Explore Krutharth's GitHub contributions</title>
+  <desc id="desc">An animated developer activity panel linking to GitHub's live contribution calendar.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d1117"/>
+      <stop offset=".5" stop-color="#101e2b"/>
+      <stop offset="1" stop-color="#0d1117"/>
+    </linearGradient>
+    <linearGradient id="track" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#238636" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#3fb950" stop-opacity=".95"/>
+      <stop offset="1" stop-color="#58a6ff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <style>
+    .ui { font-family: ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Arial, sans-serif; }
+    .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; }
+    .pulse { animation: pulse 2.8s ease-in-out infinite; }
+    .drift { animation: drift 8s linear infinite; }
+    .blink { animation: blink 3s ease-in-out infinite; }
+    @keyframes pulse { 0%,100% { opacity:.35; } 50% { opacity:1; } }
+    @keyframes blink { 0%,100% { opacity:1; } 50% { opacity:.6; } }
+    @keyframes drift { from { transform:translateX(-300px); } to { transform:translateX(850px); } }
+    @media (prefers-reduced-motion:reduce) {
+      .pulse,.drift,.blink { animation:none; }
+      .drift { opacity:0; }
+    }
+  </style>
+  <rect x="1" y="1" width="938" height="188" rx="15" fill="url(#bg)" stroke="#30363d" stroke-width="2"/>
+  <rect x="20" y="20" width="900" height="150" rx="12" fill="none" stroke="#243545"/>
+  <circle cx="49" cy="45" r="5" fill="#3fb950" class="pulse"/>
+  <text class="mono" x="64" y="49" fill="#7ee787" font-size="12" letter-spacing="1">ACTIVITY / GITHUB</text>
+  <text class="ui" x="48" y="89" fill="#e6edf3" font-weight="700" font-size="26">Explore my contribution history</text>
+  <text class="ui" x="49" y="116" fill="#8b949e" font-size="15">Open the live GitHub calendar, commits and repositories.</text>
+  <rect x="48" y="133" width="224" height="28" rx="7" fill="#238636" stroke="#3fb950"/>
+  <text class="ui blink" x="62" y="152" fill="#ffffff" font-size="12" font-weight="700" letter-spacing=".7">VIEW LIVE ACTIVITY   &#x2197;</text>
+  <g opacity=".8">
+    <path d="M548 123 H888" stroke="#263e4d" stroke-width="1.5" stroke-dasharray="3 7"/>
+    <path d="M548 92 H888" stroke="#263e4d" stroke-width="1.5" stroke-dasharray="3 7"/>
+    <path d="M548 61 H888" stroke="#263e4d" stroke-width="1.5" stroke-dasharray="3 7"/>
+    <polyline points="550,117 581,98 612,108 646,76 676,88 708,65 743,89 779,57 811,76 852,47 884,64" fill="none" stroke="#3fb950" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/>
+    <polyline points="550,117 581,98 612,108 646,76 676,88 708,65 743,89 779,57 811,76 852,47 884,64" fill="none" stroke="#58a6ff" stroke-width="1" stroke-dasharray="4 8" class="pulse"/>
+    <circle cx="852" cy="47" r="4.5" fill="#7ee787" class="pulse"/>
+    <circle cx="708" cy="65" r="3.5" fill="#58a6ff" class="pulse"/>
+    <circle cx="646" cy="76" r="3.5" fill="#7ee787" class="pulse"/>
+    <text x="870" y="148" fill="#627386" font-size="11" class="mono" text-anchor="end">Illustrative visual · not live data</text>
+  </g>
+  <g class="drift"><rect x="0" y="172" width="180" height="2" rx="1" fill="url(#track)"/></g>
+</svg>
