@@ -1,15 +1,34 @@
 <div align="center">
 
-# Hey, I'm Krutharth 👋
+<h1>Hey, I'm Krutharth 👋</h1>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1100&color=2EA043&center=true&vCenter=true&width=650&lines=Building+AI-powered+applications;Exploring+systems+%26+computer+networks;Turning+ideas+into+working+projects)](https://git.io/typing-svg)
+<p><strong>AI · Full-stack development · Computer networks · Systems programming</strong></p>
 
-**AI • Full-stack development • Computer networks • Systems programming**
+<a href="https://github.com/krutharth-dev?tab=repositories">
+  <img src="https://raw.githubusercontent.com/krutharth-dev/krutharth-dev/main/assets/hero-terminal.svg" alt="Animated developer terminal: building AI applications, exploring systems and networks, and turning ideas into software" width="100%" />
+</a>
 
-[![GitHub followers](https://img.shields.io/github/followers/krutharth-dev?style=for-the-badge&logo=github&label=Followers)](https://github.com/krutharth-dev?tab=followers)
-![Profile views](https://komarev.com/ghpvc/?username=krutharth-dev&label=Profile+Views&color=2ea043&style=for-the-badge)
+<br/>
+
+<a href="https://github.com/krutharth-dev/aura-fit-ai"><img alt="Explore AURA FIT" src="https://img.shields.io/badge/Explore-AURA%20FIT-2ea44f?style=for-the-badge&amp;logo=github&amp;logoColor=white" /></a>
+<a href="https://github.com/krutharth-dev/RDTX-Reliable-UDP-Transfer"><img alt="Explore RDTX VisualLab" src="https://img.shields.io/badge/Explore-RDTX%20VisualLab-0969da?style=for-the-badge&amp;logo=github&amp;logoColor=white" /></a>
+<a href="https://github.com/mjkr-1/Ergo-Vision"><img alt="Explore ErgoVision" src="https://img.shields.io/badge/Explore-ErgoVision-8250df?style=for-the-badge&amp;logo=github&amp;logoColor=white" /></a>
+
+<br/><br/>
+
+<a href="https://github.com/krutharth-dev?tab=followers"><img alt="GitHub followers" src="https://img.shields.io/github/followers/krutharth-dev?style=for-the-badge&amp;logo=github&amp;label=Followers" /></a>
+<img alt="Profile views" src="https://komarev.com/ghpvc/?username=krutharth-dev&amp;label=Profile+Views&amp;color=2ea043&amp;style=for-the-badge" />
+<a href="https://github.com/krutharth-dev?tab=repositories"><img alt="Browse all repositories" src="https://img.shields.io/badge/Browse-All%20Repositories-30363d?style=for-the-badge&amp;logo=github&amp;logoColor=white" /></a>
 
 </div>
+
+<details>
+  <summary><strong>🟢 Currently building — click to explore</strong></summary>
+  <br/>
+  <p>🏋️ <a href="https://github.com/krutharth-dev/aura-fit-ai"><strong>AURA FIT</strong></a> — an AI fitness coach with training tools and a workout journal.</p>
+  <p>🌐 <a href="https://github.com/krutharth-dev/RDTX-Reliable-UDP-Transfer"><strong>RDTX VisualLab</strong></a> — exploring reliable UDP transfer through interactive experiments.</p>
+  <p>🧍 <a href="https://github.com/mjkr-1/Ergo-Vision"><strong>ErgoVision</strong></a> — local, privacy-first posture monitoring with computer vision.</p>
+</details>
 
 ---
 
