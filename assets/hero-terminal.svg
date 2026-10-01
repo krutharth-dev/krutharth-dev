@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="190" viewBox="0 0 920 190" role="img" aria-labelledby="title desc">
+  <title id="title">Krutharth's animated developer terminal</title>
+  <desc id="desc">An animated terminal cycling through AI applications, systems and networks, and working software.</desc>
+  <defs>
+    <linearGradient id="panel" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#101b24"/>
+      <stop offset="100%" stop-color="#0d1117"/>
+    </linearGradient>
+    <pattern id="grid" width="22" height="22" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="0.65" fill="#263746"/>
+    </pattern>
+  </defs>
+  <style>
+    .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', monospace; }
+    .line1 { opacity: 1; animation: first 12s ease-in-out infinite; }
+    .line2 { opacity: 0; animation: second 12s ease-in-out infinite; }
+    .line3 { opacity: 0; animation: third 12s ease-in-out infinite; }
+    .cursor { animation: blink 1s steps(2, start) infinite; }
+    .pulse { animation: pulse 2.5s ease-in-out infinite; }
+    @keyframes first { 0%,28%,100% { opacity:1; } 32%,96% { opacity:0; } }
+    @keyframes second { 0%,30%,64%,100% { opacity:0; } 34%,60% { opacity:1; } }
+    @keyframes third { 0%,62%,98%,100% { opacity:0; } 66%,94% { opacity:1; } }
+    @keyframes blink { 0%,49% { opacity:1; } 50%,100% { opacity:0; } }
+    @keyframes pulse { 0%,100% { opacity:1; } 50% { opacity:.4; } }
+    @media (prefers-reduced-motion: reduce) {
+      .line1, .line2, .line3, .cursor, .pulse { animation:none; }
+      .line1 { opacity:1; }
+      .line2, .line3 { opacity:0; }
+    }
+  </style>
+  <rect x="1" y="1" width="918" height="188" rx="14" fill="url(#panel)" stroke="#303d49" stroke-width="2"/>
+  <rect x="2" y="40" width="916" height="146" rx="12" fill="url(#grid)" opacity=".5"/>
+  <path d="M2 40 H918" stroke="#303d49"/>
+  <circle cx="24" cy="21" r="5" fill="#ff5f57"/><circle cx="42" cy="21" r="5" fill="#febc2e"/><circle cx="60" cy="21" r="5" fill="#28c840"/>
+  <text x="82" y="26" fill="#8b949e" font-size="12" class="mono">krutharth@github : ~/workspace</text>
+  <circle cx="765" cy="21" r="4" fill="#3fb950" class="pulse"/>
+  <text x="778" y="25" fill="#3fb950" font-size="11" class="mono">BUILDING THINGS</text>
+  <text x="32" y="75" fill="#3fb950" font-size="16" font-weight="600" class="mono">$</text>
+  <text x="52" y="75" fill="#c9d1d9" font-size="16" class="mono">whoami</text>
+  <g font-size="19" font-weight="600" class="mono">
+    <text class="line1" x="32" y="112" fill="#79c0ff">I build AI-powered applications.</text>
+    <text class="line2" x="32" y="112" fill="#a5d6ff">I explore systems &amp; networks.</text>
+    <text class="line3" x="32" y="112" fill="#7ee787">I turn ideas into working software.</text>
+  </g>
+  <text x="32" y="151" fill="#3fb950" font-size="15" class="mono">$</text>
+  <rect class="cursor" x="52" y="138" width="9" height="17" fill="#7ee787"/>
+  <text x="885" y="170" text-anchor="end" fill="#6e7681" font-size="11" class="mono">build · test · learn · repeat</text>
+</svg>
