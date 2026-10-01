@@ -6,7 +6,10 @@
 <p>I build practical software with an emphasis on reliability, usability and clear technical documentation.</p>
 
 <a href="https://github.com/krutharth-dev?tab=repositories">
-  <img src="https://raw.githubusercontent.com/krutharth-dev/krutharth-dev/main/assets/hero-terminal.svg" alt="Animated terminal showing Krutharth's software engineering interests" width="100%" />
+  <picture>
+    <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/krutharth-dev/krutharth-dev/main/assets/hero-terminal-mobile.svg" />
+    <img src="https://raw.githubusercontent.com/krutharth-dev/krutharth-dev/main/assets/hero-terminal.svg" alt="Animated terminal showing Krutharth's software engineering interests" width="100%" />
+  </picture>
 </a>
 
 <br/>
@@ -68,7 +71,10 @@ A privacy-first, collaborative computer-vision project that processes webcam inp
 ## Technologies & engineering
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/krutharth-dev/krutharth-dev/main/assets/premium-tech-stack.svg" alt="Animated illustration of AI, web, systems and networking technologies" width="100%" />
+  <picture>
+    <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/krutharth-dev/krutharth-dev/main/assets/premium-tech-stack-mobile.svg" />
+    <img src="https://raw.githubusercontent.com/krutharth-dev/krutharth-dev/main/assets/premium-tech-stack.svg" alt="Animated illustration of AI, web, systems and networking technologies" width="100%" />
+  </picture>
 </div>
 
 **Languages:** Python · JavaScript · TypeScript · C · Java · Bash
@@ -91,8 +97,14 @@ Beyond features, I aim to make software testable and decisions inspectable. Exam
 
 <div align="center">
 
-<img alt="GitHub statistics for krutharth-dev" width="420" src="https://github-readme-stats.vercel.app/api?username=krutharth-dev&amp;show_icons=true&amp;theme=github_dark&amp;hide_border=true" />
-<img alt="Top languages reported for krutharth-dev repositories" width="420" src="https://github-readme-stats.vercel.app/api/top-langs/?username=krutharth-dev&amp;layout=compact&amp;theme=github_dark&amp;hide_border=true" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=krutharth-dev&amp;show_icons=true&amp;theme=github_dark&amp;hide_border=true" />
+  <img alt="GitHub statistics for krutharth-dev" width="420" src="https://github-readme-stats.vercel.app/api?username=krutharth-dev&amp;show_icons=true&amp;theme=default&amp;hide_border=true" />
+</picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=krutharth-dev&amp;layout=compact&amp;theme=github_dark&amp;hide_border=true" />
+  <img alt="Top languages reported for krutharth-dev repositories" width="420" src="https://github-readme-stats.vercel.app/api/top-langs/?username=krutharth-dev&amp;layout=compact&amp;theme=default&amp;hide_border=true" />
+</picture>
 
 <br/>
 
