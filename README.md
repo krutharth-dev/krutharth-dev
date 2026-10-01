@@ -78,7 +78,7 @@
 <img alt="Krutharth's GitHub statistics" height="170" src="https://github-readme-stats.vercel.app/api?username=krutharth-dev&show_icons=true&theme=github_dark&hide_border=true" />
 <img alt="Languages used in public repositories" height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=krutharth-dev&layout=compact&theme=github_dark&hide_border=true" />
 
-<img alt="GitHub contribution activity graph" width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=krutharth-dev&theme=github-compact&hide_border=true" />
+<a href="https://github.com/krutharth-dev?tab=overview" title="Explore live contributions and repository activity"><img alt="Explore Krutharth’s live GitHub contribution history" width="95%" src="https://raw.githubusercontent.com/krutharth-dev/krutharth-dev/main/assets/activity-panel.svg" /></a>
 
 </div>
 
