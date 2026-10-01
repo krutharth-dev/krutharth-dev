@@ -2,179 +2,126 @@
 
 <h1>Hey, I'm Krutharth 👋</h1>
 
-<p><strong>Building useful software at the intersection of AI, web development, networks and systems.</strong></p>
+<p><strong>Software developer focused on AI-powered applications, full-stack engineering, computer networks and systems programming.</strong></p>
+<p>I build practical software with an emphasis on reliability, usability and clear technical documentation.</p>
 
 <a href="https://github.com/krutharth-dev?tab=repositories">
-  <img src="https://raw.githubusercontent.com/krutharth-dev/krutharth-dev/main/assets/hero-terminal.svg" alt="Animated terminal introducing Krutharth's software projects" width="100%" />
+  <img src="https://raw.githubusercontent.com/krutharth-dev/krutharth-dev/main/assets/hero-terminal.svg" alt="Animated terminal showing Krutharth's software engineering interests" width="100%" />
 </a>
 
 <br/>
 
 <p>
-  <a href="https://github.com/krutharth-dev?tab=followers"><img src="https://img.shields.io/github/followers/krutharth-dev?style=for-the-badge&amp;logo=github&amp;label=Followers" alt="GitHub followers" /></a>
-  <a href="https://github.com/krutharth-dev?tab=repositories"><img src="https://img.shields.io/badge/Explore-My%20Repositories-238636?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="Browse my repositories" /></a>
+  <a href="https://github.com/krutharth-dev?tab=followers"><img src="https://img.shields.io/github/followers/krutharth-dev?style=flat-square&amp;logo=github&amp;label=Followers" alt="GitHub followers" /></a>
+  <a href="https://github.com/krutharth-dev?tab=repositories"><img src="https://img.shields.io/badge/Browse-Repositories-238636?style=flat-square&amp;logo=github&amp;logoColor=white" alt="Browse repositories" /></a>
 </p>
 
-<p>
-  <a href="https://github.com/krutharth-dev/aura-fit-ai"><strong>AURA FIT</strong></a>
-  &nbsp;·&nbsp;
-  <a href="https://github.com/krutharth-dev/RDTX-Reliable-UDP-Transfer"><strong>RDTX VisualLab</strong></a>
-  &nbsp;·&nbsp;
-  <a href="https://github.com/mjkr-1/Ergo-Vision"><strong>ErgoVision</strong></a>
-</p>
-
-<sub>Build thoughtfully. Test thoroughly. Keep learning.</sub>
+<sub>Build · Test · Learn · Repeat</sub>
 
 </div>
 
 ---
 
-## 👨‍💻 About
+## About
 
-I build practical, testable projects, from AI-assisted experiences and visual experiments to networking protocols and command-line tools. I enjoy turning complex technical ideas into something people can run, observe and understand.
+I enjoy turning technical concepts into software people can run, explore and understand. My projects range from AI-assisted web experiences to networking experiments, computer vision and systems tools.
 
-**Building now:** AI training tools, reliable UDP transfer and privacy-first computer vision. The academic Edge-AI digital-twin project is under development.
+Currently exploring **Edge AI, digital twins and developer tooling**, alongside an academic predictive-maintenance project that is still in development.
 
-**Exploring:** Full-stack applications, network protocols, operating systems, Edge AI, automation, testing and accessible interfaces.
+## Selected projects
 
----
+### 🏋️ [AURA FIT — AI Training Coach](https://github.com/krutharth-dev/aura-fit-ai)
 
-## 🚀 Featured Work
+A safety-aware fitness and wellness application with guided workout planning, training questions, authenticated accounts and a workout journal. It combines a hosted web experience with a local Python agent.
 
-<table>
-  <tr><td valign="top">
-      <h3><a href="https://github.com/krutharth-dev/aura-fit-ai">🏋️ AURA FIT</a></h3>
-      <p>An AI training and wellness coach with guided programs, account features and a workout journal.</p>
-      <sub>AI · Fitness · Web application</sub> · <a href="https://aura-fit-ai.krutharth-dev.workers.dev/">Hosted app ↗</a> · <a href="https://github.com/krutharth-dev/aura-fit-ai/blob/main/DEMO_GUIDE.md">Demo guide</a>
-    </td></tr>
-  <tr><td valign="top">
-      <h3><a href="https://github.com/krutharth-dev/RDTX-Reliable-UDP-Transfer">🌐 RDTX VisualLab</a></h3>
-      <p>Reliable file transfer over real UDP using Selective Repeat ARQ, fault simulation and live protocol telemetry.</p>
-      <sub>Computer networks · Python · Protocols</sub> · <a href="https://github.com/krutharth-dev/RDTX-Reliable-UDP-Transfer/blob/main/docs/DEMO_GUIDE.md">Guided local demo ↗</a>
-    </td></tr>
-  <tr><td valign="top">
-      <h3><a href="https://github.com/mjkr-1/Ergo-Vision">🧍 ErgoVision</a></h3>
-      <p>Privacy-first local posture monitoring with computer vision, feedback and a React dashboard.</p>
-      <sub>OpenCV · MediaPipe · React · Shared project</sub> · <a href="https://github.com/mjkr-1/Ergo-Vision/releases/tag/v1.1.0">Desktop release ↗</a> · <a href="https://github.com/mjkr-1/Ergo-Vision/blob/main/docs/INSTALLATION.md">Install guide</a>
-    </td></tr>
-  <tr><td valign="top">
-      <h3><a href="https://github.com/krutharth-dev/edge-ai-digital-twin">⚙️ Edge-AI Digital Twin</a></h3>
-      <p>Team academic predictive-maintenance prototype combining IoT sensing, Edge AI and a Digital Twin.</p>
-      <sub>Under development · IoT · Predictive maintenance</sub>
-    </td></tr>
-  <tr><td valign="top">
-      <h3><a href="https://github.com/krutharth-dev/os-algorithms-simulator-c">🖥️ OS Algorithms Simulator</a></h3>
-      <p>Interactive C simulations for memory allocation, page replacement, disk scheduling and other OS concepts.</p>
-      <sub>C · Operating systems · CLI</sub>
-    </td></tr>
-  <tr><td valign="top">
-      <h3><a href="https://github.com/krutharth-dev/unix-mini-projects">🐧 Unix Mini Projects</a></h3>
-      <p>Practical shell scripting projects for monitoring, backup and restore, file handling and terminal utilities.</p>
-      <sub>Bash · Linux · Automation</sub>
-    </td></tr>
-  <tr><td valign="top">
-      <h3><a href="https://github.com/krutharth-dev/inventory-management-system-java">📦 Inventory Management</a></h3>
-      <p>Java CLI inventory manager with persistent storage, validation, analytics and CSV export.</p>
-      <sub>Java · OOP · File handling</sub>
-    </td></tr>
-  <tr><td valign="top">
-      <h3><a href="https://github.com/krutharth-dev?tab=repositories">↗ Explore all repositories</a></h3>
-      <p>Browse source code, documentation, experiments and updates across the rest of my projects.</p>
-      <sub>Open the complete portfolio</sub>
-    </td></tr>
-</table>
+**Stack:** TypeScript · React · Cloudflare Workers/D1 · Python
 
-<sub>Links lead to actual projects and documentation; interface screenshots will be added after capturing the running applications.</sub>
+[Try the hosted application ↗](https://aura-fit-ai.krutharth-dev.workers.dev/) · [Source code](https://github.com/krutharth-dev/aura-fit-ai) · [Demo walkthrough](https://github.com/krutharth-dev/aura-fit-ai/blob/main/DEMO_GUIDE.md)
+
+### 🌐 [RDTX VisualLab — Reliable UDP Transfer](https://github.com/krutharth-dev/RDTX-Reliable-UDP-Transfer)
+
+A local-first protocol lab implementing Selective Repeat ARQ over real UDP sockets. Explore packet loss, retransmissions, ordering and file-integrity checks through browser telemetry and repeatable experiments.
+
+**Stack:** Python · UDP sockets · Flask · Protocol testing
+
+[Source code](https://github.com/krutharth-dev/RDTX-Reliable-UDP-Transfer) · [Guided local demo](https://github.com/krutharth-dev/RDTX-Reliable-UDP-Transfer/blob/main/docs/DEMO_GUIDE.md) · [Protocol documentation](https://github.com/krutharth-dev/RDTX-Reliable-UDP-Transfer/blob/main/docs/PROTOCOL.md)
+
+### 🧍 [ErgoVision — Local Posture Monitoring](https://github.com/mjkr-1/Ergo-Vision)
+
+A privacy-first, collaborative computer-vision project that processes webcam input locally and presents posture feedback, session metrics and trends through a React dashboard.
+
+**Stack:** Python · OpenCV · MediaPipe · React
+
+[Source code](https://github.com/mjkr-1/Ergo-Vision) · [Desktop release](https://github.com/mjkr-1/Ergo-Vision/releases/tag/v1.1.0) · [Installation guide](https://github.com/mjkr-1/Ergo-Vision/blob/main/docs/INSTALLATION.md)
+
+### More projects
+
+- [**Edge-AI Digital Twin**](https://github.com/krutharth-dev/edge-ai-digital-twin) — team academic predictive-maintenance prototype; in development.
+- [**OS Algorithms Simulator**](https://github.com/krutharth-dev/os-algorithms-simulator-c) — interactive C implementations of operating-system concepts.
+- [**Unix Mini Projects**](https://github.com/krutharth-dev/unix-mini-projects) — Bash automation, monitoring and terminal utilities.
+- [**Java Inventory Management**](https://github.com/krutharth-dev/inventory-management-system-java) — a CLI inventory manager with persistent storage and reporting.
+
+[Browse all repositories ↗](https://github.com/krutharth-dev?tab=repositories)
 
 ---
 
-## 🧰 My Toolbox
+## Technologies & engineering
 
 <div align="center">
-  <a href="https://github.com/krutharth-dev?tab=repositories">
-    <img src="https://raw.githubusercontent.com/krutharth-dev/krutharth-dev/main/assets/premium-tech-stack.svg" alt="Animated premium technology stack with floating tool cards and glowing network connections" width="100%" />
-  </a>
-  <br/><sub>AI · Web · Systems · Networks · Developer tooling</sub>
+  <img src="https://raw.githubusercontent.com/krutharth-dev/krutharth-dev/main/assets/premium-tech-stack.svg" alt="Animated illustration of AI, web, systems and networking technologies" width="100%" />
 </div>
 
-<br/>
+**Languages:** Python · JavaScript · TypeScript · C · Java · Bash
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=python" alt="Python" width="44" height="44" />
-  <img src="https://skillicons.dev/icons?i=js" alt="JavaScript" width="44" height="44" />
-  <img src="https://skillicons.dev/icons?i=ts" alt="TypeScript" width="44" height="44" />
-  <img src="https://skillicons.dev/icons?i=react" alt="React" width="44" height="44" />
-  <img src="https://skillicons.dev/icons?i=nodejs" alt="Node.js" width="44" height="44" />
-  <br/><sub>Python · JavaScript · TypeScript · React · Node.js</sub>
-</p>
+**Web & cloud:** React · Node.js · Flask · Cloudflare
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=c" alt="C" width="44" height="44" />
-  <img src="https://skillicons.dev/icons?i=java" alt="Java" width="44" height="44" />
-  <img src="https://skillicons.dev/icons?i=bash" alt="Bash" width="44" height="44" />
-  <img src="https://skillicons.dev/icons?i=linux" alt="Linux" width="44" height="44" />
-  <img src="https://skillicons.dev/icons?i=git" alt="Git" width="44" height="44" />
-  <br/><sub>C · Java · Bash · Linux · Git</sub>
-</p>
+**Computer vision & tools:** OpenCV · MediaPipe · Linux · Git · GitHub · VS Code
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=github" alt="GitHub" width="44" height="44" />
-  <img src="https://skillicons.dev/icons?i=vscode" alt="VS Code" width="44" height="44" />
-  <img src="https://skillicons.dev/icons?i=opencv" alt="OpenCV" width="44" height="44" />
-  <img src="https://skillicons.dev/icons?i=cloudflare" alt="Cloudflare" width="44" height="44" />
-  <img src="https://skillicons.dev/icons?i=flask" alt="Flask" width="44" height="44" />
-  <br/><sub>GitHub · VS Code · OpenCV · Cloudflare · Flask</sub>
-</p>
+### Engineering practices in the repositories
+
+Beyond features, I aim to make software testable and decisions inspectable. Examples from the code:
+
+- **Automated checks:** [AURA FIT's lint, types and tests](https://github.com/krutharth-dev/aura-fit-ai/blob/main/.github/workflows/ci.yml); [RDTX's multi-version protocol tests](https://github.com/krutharth-dev/RDTX-Reliable-UDP-Transfer/blob/main/.github/workflows/tests.yml); and [ErgoVision's backend/frontend checks](https://github.com/mjkr-1/Ergo-Vision/blob/main/.github/workflows/ci.yml).
+- **Privacy & security:** [AURA FIT's documented application boundaries](https://github.com/krutharth-dev/aura-fit-ai/blob/main/SECURITY.md) and [ErgoVision's local-processing design](https://github.com/mjkr-1/Ergo-Vision/blob/main/docs/PRIVACY.md).
+- **Reproducible experiments:** [RDTX's experimental methodology](https://github.com/krutharth-dev/RDTX-Reliable-UDP-Transfer/blob/main/docs/REPRODUCIBILITY.md) records settings, seeds and measured outcomes instead of implying universal results.
 
 ---
 
-## 📊 GitHub Activity
+## GitHub activity
 
 <div align="center">
 
 <img alt="GitHub statistics for krutharth-dev" width="420" src="https://github-readme-stats.vercel.app/api?username=krutharth-dev&amp;show_icons=true&amp;theme=github_dark&amp;hide_border=true" />
-<img alt="Languages used across krutharth-dev repositories" width="420" src="https://github-readme-stats.vercel.app/api/top-langs/?username=krutharth-dev&amp;layout=compact&amp;theme=github_dark&amp;hide_border=true" />
+<img alt="Top languages reported for krutharth-dev repositories" width="420" src="https://github-readme-stats.vercel.app/api/top-langs/?username=krutharth-dev&amp;layout=compact&amp;theme=github_dark&amp;hide_border=true" />
 
-<br/><sub>If either external stats card is unavailable, <a href="https://github.com/krutharth-dev?tab=overview">view GitHub's native activity</a> or <a href="https://github.com/krutharth-dev?tab=repositories">browse the repositories</a>.</sub>
+<br/>
 
-<br/><br/>
-
-<a href="https://github.com/krutharth-dev?tab=overview">
-  <img alt="Animated panel linking to my live GitHub contribution history; the artwork is illustrative" src="https://raw.githubusercontent.com/krutharth-dev/krutharth-dev/main/assets/activity-panel.svg" width="100%" />
-</a>
-
-<sub>Click the panel above to see the actual contribution calendar on GitHub. The graphic is illustrative, not live data.</sub>
+<sub>Stats cards use an external service. You can always view the <a href="https://github.com/krutharth-dev?tab=overview">native contribution history</a> and <a href="https://github.com/krutharth-dev?tab=repositories">repositories</a> directly on GitHub.</sub>
 
 </div>
 
----
-
-## 🐍 The Contribution Snake
+## Contributions
 
 <div align="center">
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/krutharth-dev/krutharth-dev/output/github-contribution-grid-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/krutharth-dev/krutharth-dev/output/github-contribution-grid-snake.svg" />
-  <img alt="Animated snake moving through my GitHub contribution calendar" src="https://raw.githubusercontent.com/krutharth-dev/krutharth-dev/output/github-contribution-grid-snake.svg" width="100%" />
+  <img alt="Animated snake traversing my GitHub contributions" src="https://raw.githubusercontent.com/krutharth-dev/krutharth-dev/output/github-contribution-grid-snake.svg" width="100%" />
 </picture>
 
-<sub>Generated automatically with <a href="https://github.com/krutharth-dev/krutharth-dev/blob/main/.github/workflows/snake.yml">GitHub Actions</a>.</sub>
+<sub>Generated by <a href="https://github.com/krutharth-dev/krutharth-dev/blob/main/.github/workflows/snake.yml">GitHub Actions</a>.</sub>
 
 </div>
 
 ---
 
+## Contact & collaboration
+
+Interested in the projects or have a suggestion? Explore the source, raise a relevant issue in the project repository, or connect through my [GitHub profile](https://github.com/krutharth-dev).
+
 <div align="center">
 
-<strong>Thanks for visiting 👋</strong>
-
-<br/>
-
-<sub>Build · Test · Learn · Repeat</sub>
-
-<br/><br/>
-
-<a href="https://github.com/krutharth-dev?tab=repositories">Explore my work ↗</a>
+<sub>Thanks for stopping by. Keep building. 👋</sub>
 
 </div>
