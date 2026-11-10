@@ -104,7 +104,7 @@ def main():
             languages.update(get(f"/repos/{repo['full_name']}/languages"))
     themes = {
         "light": ("#ffffff", "#24292f", "#57606a", "#d0d7de", "#0969da"),
-        "dark": ("#0d1117", "#e6edf3", "#8b949e", "#30363d", "#58a6ff"),
+        "dark": ("#111516", "#b4cfc7", "#8baaa1", "#344945", "#65d2b1"),
     }
     out = Path("assets")
     out.mkdir(exist_ok=True)
