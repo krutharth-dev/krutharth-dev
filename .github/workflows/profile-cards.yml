@@ -6,6 +6,7 @@ on:
     paths:
       - '.github/workflows/profile-cards.yml'
       - 'scripts/profile_cards.py'
+      - 'tests/test_profile_cards.py'
   schedule:
     - cron: '35 2 * * *'
   workflow_dispatch:
@@ -23,6 +24,8 @@ jobs:
     timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
+      - name: Run offline regression tests
+        run: python3 -m unittest discover -s tests -p test_profile_cards.py -v
       - name: Generate cards from GitHub API
         env:
           GH_TOKEN: ${{ github.token }}
