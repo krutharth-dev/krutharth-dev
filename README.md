@@ -1,102 +1,91 @@
 <div align="center">
 
-<h1>Hey, I'm Krutharth 👋</h1>
+# Krutharth Prashanth Gowda
 
-<p><strong>Software developer focused on AI-powered applications, full-stack engineering, computer networks and systems programming.</strong></p>
-<p>I build practical software with an emphasis on reliability, usability and clear technical documentation.</p>
+**AI & Full-Stack Developer · Privacy Engineering · Reliable Systems**
 
-<a href="https://github.com/krutharth-dev?tab=repositories">
-  <picture>
-    <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/krutharth-dev/krutharth-dev/main/assets/hero-terminal-mobile.svg" />
-    <img src="https://raw.githubusercontent.com/krutharth-dev/krutharth-dev/main/assets/hero-terminal.svg" alt="Animated terminal showing Krutharth's software engineering interests" width="100%" />
-  </picture>
-</a>
+Building intelligent applications, privacy-focused software and reliable systems.
 
-<br/>
+[**Portfolio & case studies**](https://krutharth-portfolio.krutharth-dev.workers.dev/) · [**Technical resume**](https://krutharth-portfolio.krutharth-dev.workers.dev/resume.html) · [**Repositories**](https://github.com/krutharth-dev?tab=repositories)
 
-<p>
-  <a href="https://github.com/krutharth-dev?tab=followers"><img src="https://img.shields.io/github/followers/krutharth-dev?style=flat-square&amp;logo=github&amp;label=Followers" alt="GitHub followers" /></a>
-  <a href="https://github.com/krutharth-dev?tab=repositories"><img src="https://img.shields.io/badge/Browse-Repositories-238636?style=flat-square&amp;logo=github&amp;logoColor=white" alt="Browse repositories" /></a>
-</p>
+<picture>
+  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/krutharth-dev/krutharth-dev/main/assets/hero-terminal-mobile.svg" />
+  <img src="https://raw.githubusercontent.com/krutharth-dev/krutharth-dev/main/assets/hero-terminal.svg" alt="Illustrated software engineering terminal" width="100%" />
+</picture>
 
-<sub>Build · Test · Learn · Repeat</sub>
+<sub>Computer science · Applied AI · Full-stack engineering · Systems & networks</sub>
 
 </div>
 
 ---
 
-## About
+## Selected work
 
-I enjoy turning technical concepts into software people can run, explore and understand. My projects range from AI-assisted web experiences to networking experiments, computer vision and systems tools.
+Five projects that demonstrate product engineering, system design, testing and technical depth.
 
-Currently exploring **Edge AI, digital twins and developer tooling**, alongside an academic predictive-maintenance project that is still in development.
+| Project | What it demonstrates | Status & evidence |
+| :-- | :-- | :-- |
+| **[ShareShield](https://github.com/krutharth-dev/ShareShield)** | Multilingual document OCR, sensitive-data detection, review, redaction and scoped export verification. | [Live demo](https://shareshield-mini.pages.dev/) · [Known limitations](https://github.com/krutharth-dev/ShareShield/blob/main/docs/KNOWN_LIMITATIONS.md) |
+| **[AURA FIT AI](https://github.com/krutharth-dev/aura-fit-ai)** | Safety-aware AI coaching, authenticated accounts, training journal and cloud-backed state. | [Live demo](https://aura-fit-ai.krutharth-dev.workers.dev/) · [CI](https://github.com/krutharth-dev/aura-fit-ai/actions/workflows/ci.yml) |
+| **[RDTX VisualLab](https://github.com/krutharth-dev/RDTX-Reliable-UDP-Transfer)** | Reliable UDP file transfer using Selective Repeat ARQ, live telemetry and reproducible network experiments. | [Local demo](https://github.com/krutharth-dev/RDTX-Reliable-UDP-Transfer/blob/main/docs/DEMO_GUIDE.md) · [Protocol](https://github.com/krutharth-dev/RDTX-Reliable-UDP-Transfer/blob/main/docs/PROTOCOL.md) |
+| **[Edge-AI Digital Twin](https://github.com/krutharth-dev/edge-ai-digital-twin)** | MQTT telemetry, SQLite, condition monitoring and optional ML fault classification. | Tested software MVP; hardware validation pending · [Status](https://github.com/krutharth-dev/edge-ai-digital-twin/blob/main/docs/IMPLEMENTATION_STATUS.md) |
+| **[ErgoVision](https://github.com/mjkr-1/Ergo-Vision)** | Collaborative computer vision application with local webcam processing and posture feedback. | [Desktop release](https://github.com/mjkr-1/Ergo-Vision/releases/tag/v1.1.0) · [Privacy](https://github.com/mjkr-1/Ergo-Vision/blob/main/docs/PRIVACY.md) |
 
-## Selected projects
+### Featured project — ShareShield
 
-### 🏋️ [AURA FIT — AI Training Coach](https://github.com/krutharth-dev/aura-fit-ai)
+**Privacy-aware document intelligence.** Browser-based OCR and document review help users identify, prioritize and redact sensitive information. The application distinguishes uncertain findings from verified scoped results rather than claiming universal anonymization.
 
-A safety-aware fitness and wellness application with guided workout planning, training questions, authenticated accounts and a workout journal. It combines a hosted web experience with a local Python agent.
+**Architecture:** Document → OCR → candidate review → redaction → downloaded-file verification.
 
-**Stack:** TypeScript · React · Cloudflare Workers/D1 · Python
+**Engineering focus:** multilingual recognition, confidence handling, duplicate OCR observations, privacy boundaries and regression testing. Kannada accuracy and real-document acceptance testing remain ongoing.
 
-[Try the hosted application ↗](https://aura-fit-ai.krutharth-dev.workers.dev/) · [Source code](https://github.com/krutharth-dev/aura-fit-ai) · [Demo walkthrough](https://github.com/krutharth-dev/aura-fit-ai/blob/main/DEMO_GUIDE.md)
+[Explore source](https://github.com/krutharth-dev/ShareShield) · [Try the demo](https://shareshield-mini.pages.dev/) · [Read the technical case study](https://krutharth-portfolio.krutharth-dev.workers.dev/#projects)
 
-### 🌐 [RDTX VisualLab — Reliable UDP Transfer](https://github.com/krutharth-dev/RDTX-Reliable-UDP-Transfer)
+### Project previews
 
-A local-first protocol lab implementing Selective Repeat ARQ over real UDP sockets. Explore packet loss, retransmissions, ordering and file-integrity checks through browser telemetry and repeatable experiments.
+<details>
+<summary><strong>AURA FIT AI — illustrated interface preview</strong></summary>
 
-**Stack:** Python · UDP sockets · Flask · Protocol testing
+[![Illustrative AURA FIT coaching interface, not a live screenshot](https://raw.githubusercontent.com/krutharth-dev/aura-fit-ai/main/docs/media/coach-preview.svg)](https://aura-fit-ai.krutharth-dev.workers.dev/)
 
-[Source code](https://github.com/krutharth-dev/RDTX-Reliable-UDP-Transfer) · [Guided local demo](https://github.com/krutharth-dev/RDTX-Reliable-UDP-Transfer/blob/main/docs/DEMO_GUIDE.md) · [Protocol documentation](https://github.com/krutharth-dev/RDTX-Reliable-UDP-Transfer/blob/main/docs/PROTOCOL.md)
+[Demo walkthrough](https://github.com/krutharth-dev/aura-fit-ai/blob/main/DEMO_GUIDE.md)
 
-### 🧍 [ErgoVision — Local Posture Monitoring](https://github.com/mjkr-1/Ergo-Vision)
+</details>
 
-A privacy-first, collaborative computer-vision project that processes webcam input locally and presents posture feedback, session metrics and trends through a React dashboard.
+<details>
+<summary><strong>RDTX VisualLab — illustrated protocol walkthrough</strong></summary>
 
-**Stack:** Python · OpenCV · MediaPipe · React
+[![Illustrated RDTX protocol features, not measured transfer data](https://raw.githubusercontent.com/krutharth-dev/RDTX-Reliable-UDP-Transfer/main/docs/media/rdtx-45s-explainer.svg)](https://github.com/krutharth-dev/RDTX-Reliable-UDP-Transfer)
 
-[Source code](https://github.com/mjkr-1/Ergo-Vision) · [Desktop release](https://github.com/mjkr-1/Ergo-Vision/releases/tag/v1.1.0) · [Installation guide](https://github.com/mjkr-1/Ergo-Vision/blob/main/docs/INSTALLATION.md)
+[Reproduce the demo](https://github.com/krutharth-dev/RDTX-Reliable-UDP-Transfer/blob/main/docs/SHORT_DEMO.md)
 
-### More projects
+</details>
 
-- [**Edge-AI Digital Twin**](https://github.com/krutharth-dev/edge-ai-digital-twin) — team academic predictive-maintenance prototype; in development.
-- [**OS Algorithms Simulator**](https://github.com/krutharth-dev/os-algorithms-simulator-c) — interactive C implementations of operating-system concepts.
-- [**Unix Mini Projects**](https://github.com/krutharth-dev/unix-mini-projects) — Bash automation, monitoring and terminal utilities.
-- [**Java Inventory Management**](https://github.com/krutharth-dev/inventory-management-system-java) — a CLI inventory manager with persistent storage and reporting.
+### Systems foundations
 
-[Browse all repositories ↗](https://github.com/krutharth-dev?tab=repositories)
-
----
-
-## Technologies & engineering
-
-<div align="center">
-  <picture>
-    <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/krutharth-dev/krutharth-dev/main/assets/premium-tech-stack-mobile.svg" />
-    <img src="https://raw.githubusercontent.com/krutharth-dev/krutharth-dev/main/assets/premium-tech-stack.svg" alt="Animated illustration of AI, web, systems and networking technologies" width="100%" />
-  </picture>
-</div>
-
-**Languages:** Python · JavaScript · TypeScript · C · Java · Bash
-
-**Web & cloud:** React · Node.js · Flask · Cloudflare
-
-**Computer vision & tools:** OpenCV · MediaPipe · Linux · Git · GitHub · VS Code
-
-### Engineering practices in the repositories
-
-Beyond features, I aim to make software testable and decisions inspectable. Examples from the code:
-
-- **Automated checks:** [AURA FIT's lint, types and tests](https://github.com/krutharth-dev/aura-fit-ai/blob/main/.github/workflows/ci.yml); [RDTX's multi-version protocol tests](https://github.com/krutharth-dev/RDTX-Reliable-UDP-Transfer/blob/main/.github/workflows/tests.yml); and [ErgoVision's backend/frontend checks](https://github.com/mjkr-1/Ergo-Vision/blob/main/.github/workflows/ci.yml).
-- **Privacy & security:** [AURA FIT's documented application boundaries](https://github.com/krutharth-dev/aura-fit-ai/blob/main/SECURITY.md) and [ErgoVision's local-processing design](https://github.com/mjkr-1/Ergo-Vision/blob/main/docs/PRIVACY.md).
-- **Reproducible experiments:** [RDTX's experimental methodology](https://github.com/krutharth-dev/RDTX-Reliable-UDP-Transfer/blob/main/docs/REPRODUCIBILITY.md) records settings, seeds and measured outcomes instead of implying universal results.
+[OS Algorithms Simulator (C)](https://github.com/krutharth-dev/os-algorithms-simulator-c) · [Unix Mini Projects (Bash)](https://github.com/krutharth-dev/unix-mini-projects) · [Java Inventory Management](https://github.com/krutharth-dev/inventory-management-system-java)
 
 ---
+
+## Engineering toolkit
+
+| Area | Technologies |
+| :-- | :-- |
+| Languages | Python · TypeScript · JavaScript · C · Java · Bash |
+| Web & cloud | React · Flask · Cloudflare Workers/D1 · Node.js |
+| AI & computer vision | Tesseract OCR · OpenCV · MediaPipe · LangGraph |
+| Systems & tooling | UDP · MQTT · SQLite · Linux · Git · GitHub Actions |
+
+## How I build
+
+- **Testing:** [AURA FIT lint, types and automated tests](https://github.com/krutharth-dev/aura-fit-ai/blob/main/.github/workflows/ci.yml), [RDTX multi-version protocol tests](https://github.com/krutharth-dev/RDTX-Reliable-UDP-Transfer/blob/main/.github/workflows/tests.yml), and [Digital Twin software CI](https://github.com/krutharth-dev/edge-ai-digital-twin/actions/workflows/software-tests.yml).
+- **Privacy and safety:** [ShareShield's documented verification limitations](https://github.com/krutharth-dev/ShareShield/blob/main/docs/KNOWN_LIMITATIONS.md), [AURA FIT security boundaries](https://github.com/krutharth-dev/aura-fit-ai/blob/main/SECURITY.md), and [ErgoVision local processing](https://github.com/mjkr-1/Ergo-Vision/blob/main/docs/PRIVACY.md).
+- **Reproducibility:** [RDTX experimental methodology](https://github.com/krutharth-dev/RDTX-Reliable-UDP-Transfer/blob/main/docs/REPRODUCIBILITY.md) records settings, seeds and measured outcomes.
+- **Collaboration:** Project repositories document team attribution, implementation status and technical decisions. I use issues and pull request reviews to track improvements.
 
 ## Recognition
 
-🥉 **Signal Quest — 3rd Place**  
-Secured third place in the Signal Quest competition. [View the announcement ↗](https://www.instagram.com/p/Dd9Exx5EtT-/)
+**Signal Quest — Third place.** [Competition announcement](https://www.instagram.com/p/Dd9Exx5EtT-/)
 
 ---
 
@@ -137,10 +126,6 @@ Secured third place in the Signal Quest competition. [View the announcement ↗]
 
 ## Contact & collaboration
 
-Interested in the projects or have a suggestion? Explore the source, raise a relevant issue in the project repository, or connect through my [GitHub profile](https://github.com/krutharth-dev).
+Explore the [portfolio](https://krutharth-portfolio.krutharth-dev.workers.dev/), browse the source, or open a relevant issue in a project repository.
 
-<div align="center">
-
-<sub>Thanks for stopping by. Keep building. 👋</sub>
-
-</div>
+<div align="center"><sub>Build thoughtfully. Test carefully. Keep learning.</sub></div>
