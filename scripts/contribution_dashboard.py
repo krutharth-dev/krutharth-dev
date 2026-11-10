@@ -76,22 +76,44 @@ def render(values):
     pts = [(36+i*step, 246-116*v/maximum) for i,v in enumerate(counts)]
     points = " ".join(f"{x:.2f},{y:.2f}" for x,y in pts)
     area = f"36,246 {points} 864,246"
-    def t(x,y,v,size=14,color="#b3c5df",weight=400,anchor="start"):
+    def t(x,y,v,size=14,color="#d3d6df",weight=400,anchor="start"):
         return f'<text x="{x}" y="{y}" font-size="{size}" fill="{color}" font-weight="{weight}" text-anchor="{anchor}">{v}</text>'
-    head = '<svg xmlns="http://www.w3.org/2000/svg" width="900" height="300" viewBox="0 0 900 300" role="img" aria-label="GitHub contribution activity and streaks"><title>GitHub contribution activity and streaks</title><defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#101a32"/><stop offset="1" stop-color="#080e1d"/></linearGradient><linearGradient id="line"><stop stop-color="#49ddff"/><stop offset="1" stop-color="#aa91ff"/></linearGradient></defs><rect x="1" y="1" width="898" height="298" rx="18" fill="url(#bg)" stroke="#35435e"/><g font-family="Arial,Helvetica,sans-serif">'
-    body = t(28,35,"CONTRIBUTION ACTIVITY",19,"#75defe",700)+t(872,35,"GITHUB CALENDAR",11,"#a2b3cf",700,"end")
+    head = '<svg xmlns="http://www.w3.org/2000/svg" width="900" height="300" viewBox="0 0 900 300" role="img" aria-label="GitHub contribution activity and streaks"><title>GitHub contribution activity and streaks</title><defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#1f222e"/><stop offset="1" stop-color="#1f222e"/></linearGradient><linearGradient id="line"><stop stop-color="#f85d7f"/><stop offset="1" stop-color="#f85d7f"/></linearGradient></defs><rect x="1" y="1" width="898" height="298" rx="18" fill="url(#bg)" stroke="#424653"/><g font-family="Arial,Helvetica,sans-serif">'
+    body = t(28,35,"CONTRIBUTION ACTIVITY",19,"#f8d866",700)+t(872,35,"GITHUB CALENDAR",11,"#c6c9d4",700,"end")
     for x,v,label in [(28,total,"Contributions / past year"),(320,streak,"Current streak / days"),(614,longest,"Longest streak / days")]:
-        body += f'<rect x="{x}" y="48" width="258" height="65" rx="10" fill="#17243b" stroke="#314461"/>'+t(x+14,76,f"{v:,}",24,"#f4f8ff",700)+t(x+14,98,label,12)
+        body += f'<rect x="{x}" y="48" width="258" height="65" rx="10" fill="#282d3a" stroke="#424653"/>'+t(x+14,76,f"{v:,}",24,"#f4f8ff",700)+t(x+14,98,label,12)
     for y in (130,159,188,217,246):
-        body += f'<path d="M36 {y}H864" stroke="#34435c" stroke-opacity=".7"/>'
-    body += f'<polygon points="{area}" fill="#51c6ff" fill-opacity=".12"/><polyline points="{points}" stroke="url(#line)" stroke-width="2.5" fill="none" stroke-linejoin="round"/>'
+        body += f'<path d="M36 {y}H864" stroke="#424653" stroke-opacity=".7"/>'
+    body += f'<polygon points="{area}" fill="#f85d7f" fill-opacity=".12"/><polyline points="{points}" stroke="url(#line)" stroke-width="2.5" fill="none" stroke-linejoin="round"/>'
     for i in (0,14,29,44,59):
         x,_=pts[i]
-        body+=t(x,270,recent[i].strftime("%b %d"),11,"#a2b3cf",400,"start" if i==0 else "end" if i==59 else "middle")
-    body+=t(28,289,"Daily contributions · last 60 days · native GitHub calendar",10,"#94a7c5")+t(872,289,days[-1].isoformat(),10,"#94a7c5",400,"end")
+        body+=t(x,270,recent[i].strftime("%b %d"),11,"#c6c9d4",400,"start" if i==0 else "end" if i==59 else "middle")
+    body+=t(28,289,"Daily contributions · last 60 days · native GitHub calendar",10,"#acb0be")+t(872,289,days[-1].isoformat(),10,"#acb0be",400,"end")
     return head+body+"</g></svg>\n"
 
+
+def render_streak(values):
+    days = sorted(values)
+    total = sum(values.values())
+    streak = longest = run = 0
+    for day in days:
+        run = run + 1 if values[day] else 0
+        longest = max(longest, run)
+    end = len(days) - 1
+    if not values[days[end]]:
+        end -= 1
+    while end >= 0 and values[days[end]]:
+        streak += 1
+        end -= 1
+    return f'''<svg xmlns="http://www.w3.org/2000/svg" width="420" height="204" viewBox="0 0 420 204" role="img" aria-label="GitHub contributions and streaks"><title>GitHub Contributions and Streaks</title><rect x="1" y="1" width="418" height="202" rx="8" fill="#111516" stroke="#344945"/><g font-family="Arial,Helvetica,sans-serif" text-anchor="middle"><text x="210" y="29" font-size="16" font-weight="700" fill="#65d2b1">GitHub contribution streak</text><path d="M140 49V159M280 49V159" stroke="#40514c"/><circle cx="210" cy="90" r="35" fill="none" stroke="#3ea78b" stroke-width="4"/><text x="70" y="99" font-size="28" font-weight="700" fill="#67cbb0">{total:,}</text><text x="210" y="98" font-size="27" font-weight="700" fill="#67cbb0">{streak}</text><text x="350" y="99" font-size="28" font-weight="700" fill="#67cbb0">{longest}</text><text x="70" y="137" font-size="11" fill="#b4cfc7">Contributions</text><text x="70" y="152" font-size="10" fill="#8baaa1">Past year</text><text x="210" y="137" font-size="11" fill="#b4cfc7">Current streak</text><text x="210" y="152" font-size="10" fill="#8baaa1">Days</text><text x="350" y="137" font-size="11" fill="#b4cfc7">Longest streak</text><text x="350" y="152" font-size="10" fill="#8baaa1">Days / past year</text><text x="210" y="188" font-size="10" fill="#8baaa1">GitHub calendar · {days[-1].isoformat()}</text></g></svg>'''
+
 if __name__ == "__main__":
-    output = render(fetch_calendar())
-    ElementTree.fromstring(output)
-    Path("assets/contribution-dashboard.svg").write_text(output, encoding="utf-8")
+    values = fetch_calendar()
+    outputs = {
+        "contribution-dashboard.svg": render(values),
+        "contribution-streak.svg": render_streak(values),
+    }
+    for name, output in outputs.items():
+        ElementTree.fromstring(output)
+    for name, output in outputs.items():
+        Path("assets", name).write_text(output, encoding="utf-8")
