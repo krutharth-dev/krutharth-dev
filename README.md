@@ -105,17 +105,17 @@ Secured third place in the Signal Quest competition. [View the announcement ↗]
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=krutharth-dev&amp;show_icons=true&amp;theme=github_dark&amp;hide_border=true" />
-  <img alt="GitHub statistics for krutharth-dev" width="420" src="https://github-readme-stats.vercel.app/api?username=krutharth-dev&amp;show_icons=true&amp;theme=default&amp;hide_border=true" />
+  <source media="(prefers-color-scheme: dark)" srcset="assets/profile-stats-dark.svg" />
+  <img alt="GitHub statistics for krutharth-dev" width="420" src="assets/profile-stats-light.svg" />
 </picture>
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=krutharth-dev&amp;layout=compact&amp;theme=github_dark&amp;hide_border=true" />
-  <img alt="Top languages reported for krutharth-dev repositories" width="420" src="https://github-readme-stats.vercel.app/api/top-langs/?username=krutharth-dev&amp;layout=compact&amp;theme=default&amp;hide_border=true" />
+  <source media="(prefers-color-scheme: dark)" srcset="assets/top-languages-dark.svg" />
+  <img alt="Top languages reported for krutharth-dev repositories" width="420" src="assets/top-languages-light.svg" />
 </picture>
 
 <br/>
 
-<sub>Stats cards use an external service. You can always view the <a href="https://github.com/krutharth-dev?tab=overview">native contribution history</a> and <a href="https://github.com/krutharth-dev?tab=repositories">repositories</a> directly on GitHub.</sub>
+<sub>Stats cards are generated daily using GitHub Actions and public GitHub API data. You can always view the <a href="https://github.com/krutharth-dev?tab=overview">native contribution history</a> and <a href="https://github.com/krutharth-dev?tab=repositories">repositories</a> directly on GitHub.</sub>
 
 </div>
 
